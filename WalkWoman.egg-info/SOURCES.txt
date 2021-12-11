@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+WalkWoman/__init__.py
+WalkWoman/__main__.py
+WalkWoman/animation.py
+WalkWoman.egg-info/PKG-INFO
+WalkWoman.egg-info/SOURCES.txt
+WalkWoman.egg-info/dependency_links.txt
+WalkWoman.egg-info/entry_points.txt
+WalkWoman.egg-info/requires.txt
+WalkWoman.egg-info/top_level.txt

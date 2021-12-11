@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f44ff833cfe150ec6334e9312a1ea31fbe5035cb6cb3b6b8319b72070d41f9c5"
+            "sha256": "5d83b37bec19db8cefdf641589a830cf2fae4239ebce06894d52624f4e04681f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -79,6 +79,10 @@
             ],
             "index": "pypi",
             "version": "==2.1.0"
+        },
+        "walkwoman": {
+            "editable": true,
+            "path": "."
         }
     },
     "develop": {}

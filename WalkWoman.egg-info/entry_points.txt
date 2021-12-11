@@ -1,0 +1,3 @@
+[console_scripts]
+WalkWoman = WalkWoman.__main__:main
+
