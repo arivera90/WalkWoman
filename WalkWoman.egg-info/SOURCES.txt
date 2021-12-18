@@ -1,9 +1,13 @@
 LICENSE
 README.md
+pyproject.toml
 setup.py
 WalkWoman/__init__.py
 WalkWoman/__main__.py
 WalkWoman/animation.py
+WalkWoman/config.py
+WalkWoman/fps_stats.py
+WalkWoman/woman.py
 WalkWoman.egg-info/PKG-INFO
 WalkWoman.egg-info/SOURCES.txt
 WalkWoman.egg-info/dependency_links.txt
