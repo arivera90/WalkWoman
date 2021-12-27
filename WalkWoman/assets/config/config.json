@@ -2,7 +2,7 @@
 "sound":{
          "walk_sound_pakage": "WalkWoman.assets.sound",
          "walk_sound_filename": "step_2.ogg",
-         "walk_sound_cadency":2.5,
+         "walk_sound_cadency":10,
          "background_music_pakage": "WalkWoman.assets.sound",
          "background_music_filename": "Ord.ogg",
          "background_music_volume": 0.05
@@ -17,10 +17,17 @@
          "screen_size": [640,480],
          "animation_title": "Walking Woman",
          "background_pakage":"WalkWoman.assets.img",
-         "background_filename":"forest.jpg"
+         "background_filename":"forest.jpg",
+         "tick": 60
         
 },
-"sprite":{
+"fps_counter":{
+        "enable": 1,
+        "color": "Blue1",
+        "position" : [10,0]
+},
+
+"woman":{
         "woman_position": [320,300],
         "woman_sprite_pakage": "WalkWoman.assets.sprites",
         "woman_sprite_filename": "walking_animation.png",
@@ -30,7 +37,8 @@
         "frames_left": 10,
         "frames_left_init": [0,128],
         "frames_left_size": [64,128],
-        "delta_time": 10
+        "delta_time": 3,
+        "distance": 2
 }
 
 }

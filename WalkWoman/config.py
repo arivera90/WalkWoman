@@ -1,9 +1,8 @@
 from importlib import resources
 import json
 
-
-
 class Config():
+    '''Clase singleton, para extraer datos del fichero de configuraión'''
     __config_json_path, __config_json_filename= "WalkWoman.assets.config", "config.json"
     __instance = None
 

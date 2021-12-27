@@ -1,10 +1,11 @@
-import sys
 from WalkWoman.animation import *
+import sys
+
 
 def main(args=None):
     if args is None:
         args= sys.argv[1:]
-    print("Main is alive on fire")
+    print("WalkWoman is running.")
     app = Animation()
     app.run()
 
